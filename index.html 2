@@ -1,0 +1,97 @@
+/* Style the header with a gradient background and some padding */
+.header {
+  overflow: hidden;
+  background: linear-gradient(to right, #f127e6, #f5af19);
+  padding: 20px 10px;
+}
+
+/* Style the header logo and burger picture */
+.header-logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.header-burger {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+/* Style the header title */
+.header-title {
+  float: left;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+/* Style the header search bar */
+.header-search {
+  float: right;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Style the body with a white background and some margin */
+.body {
+  background-color: white;
+  margin: 20px;
+}
+
+/* Style the body grid container */
+.body-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Style the body grid items */
+.body-item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* Style the body grid images */
+.body-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the body grid overlays */
+.body-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Style the body grid titles */
+.body-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Show the body grid overlays on hover */
+.body-item:hover .body-overlay {
+  opacity: 1;
+}

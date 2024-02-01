@@ -54,4 +54,12 @@ footer {
     padding: 10px;
     margin-bottom: 15px;
     background-color: #fff;
+    display: inline-block; /* Make recipes display inline */
+    width: 48%; /* Adjust the width as needed, leaving space for margins */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.recipe img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain image aspect ratio */
 }

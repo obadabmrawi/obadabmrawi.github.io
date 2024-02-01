@@ -2,32 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <title>Middle Eastern Food Delights</title>
 </head>
-
 <body>
-    <h1>
-   Gam burger 
-    </h1>
-
-    <p> Best burger in the world  <hr> . 
-        <div class="flex">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
+    <header>
+        <h1>Middle Eastern Food Delights</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Middle Eastern Food Delights</h2>
+        <p>Explore the rich and diverse flavors of Middle Eastern cuisine.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Discover the history and cultural significance of Middle Eastern dishes.</p>
+    </section>
+    <section id="recipes">
+        <h2>Popular Recipes</h2>
+        <div class="recipe">
+            <h3>Hummus</h3>
+            <p>A delicious dip made from chickpeas, tahini, lemon, and garlic.</p>
         </div>
-       
-}
-    </p>
+        <div class="recipe">
+            <h3>Shawarma</h3>
+            <p>Spiced and marinated meat, typically served in a flatbread wrap.</p>
+        </div>
+        <!-- Add more recipes as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <ul>
-        <li>only Gam burger </li>
-       
-       <i> </i>
-        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    </ul>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Middle Eastern Food Delights. All rights reserved.</p>
+    </footer>
 </body>
 </html>
